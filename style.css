@@ -220,5 +220,33 @@ header {
 }
 
 
+.experts {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.cont-experts {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cont-experts img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.n-expert {
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+
+}
 
 
