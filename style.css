@@ -249,4 +249,74 @@ header {
 
 }
 
+footer {
+    background-color: #9f8ad0;
+    padding-bottom: 0.1px;
+}
 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us {
+
+    width: 40px;
+    color:white
+}
+
+.brand {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.contact-us {
+
+    font-weight: 500;
+}
+
+.social-media {
+    width: 50%;
+    display:flex;
+    justify-content: flex-end;
+    color: black
+}
+
+.social-media-icon {
+
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+
+
+}
+
+.social-media-icon hover {
+    background-color: white;
+    color:#764ba2;
+
+}
+
+.social-media-icon i {
+    text-align: center;
+    line-height: 60px;
+
+}
+
+.line {
+    width: 90%;
+    max-width: 1200px;
+    margin:  0 auto;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 60px;
+}
