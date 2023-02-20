@@ -13,8 +13,21 @@ images.forEach(image => {
     
 });
 
+
+lightContainer.addEventListener('click', (e) => {
+
+    if(e.target != imagesLight) {
+        lightContainer.classList.toggle('show')
+        imagesLight.classList.toggle('showImage')
+        hamburger1.style.opacity = '1';
+
+    }
+    
+});
+
 const showImage = (image) => {
     imagesLight.src = image;
     lightContainer.classList.toggle('show')
     imagesLight.classList.toggle('showImage')
+    hamburger1.style.opacity = '0';
 }
